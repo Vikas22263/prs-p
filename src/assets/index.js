@@ -37,6 +37,9 @@ import reactandthreewp from "./akiro-3.png";
 import threejswp from "./tech/Lp-1.png";
 import allmovie from "./allmove.webp"
 import gracito from "./gracitio.png"
+import bhavyaPublication from "./bhavya-publication.png"
+import expense_tra from "./expense.png"
+import ecom from "./ecom.png"
 
 export {
   gracito,
@@ -75,4 +78,7 @@ export {
   webdev1,
   threejswp,
   reactandthreewp,
+  bhavyaPublication,
+  expense_tra,
+  ecom
 };

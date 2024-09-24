@@ -27,6 +27,9 @@ import {
   reactandthreewp,
   firebase,
   gracito,
+  bhavyaPublication,
+  expense_tra,
+  ecom
 } from "../assets";
 
 export const navLinks = [
@@ -285,22 +288,22 @@ const projects = [
 
     description:
       "Developed an online store builder using HTML, CSS, JavaScript, jQuery, and PHP, enabling businesses to create and manage online stores without coding",
-  
+
     tags: [
       {
-        name: "Typescript",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "reactjs",
+        name: "css",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
       { name: "Nodejs", color: "blue-text-gradient" },
@@ -308,6 +311,96 @@ const projects = [
     ],
     image: gracito,
     source_code_link: "https://grocito.in/",
+  },
+  {
+    name: "bhavyapublication",
+
+    description:
+      "Developed an online Book-store using HTML, CSS, JavaScript, React,tailwind, and redux-toolkit,Node-js,express,mongoDb,razorpay,jwt,bcrypt enabling businesses to create and manage online stores without coding",
+
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      { name: "Nodejs", color: "blue-text-gradient" },
+      { name: "mongoDb", color: "blue-text-gradient" },
+      { name: "razorpay", color: "blue-text-gradient" },
+    ],
+    image: bhavyaPublication,
+    source_code_link: "https://www.bhavyapublication.com/",
+  },
+  {
+    name: "Expense-tracker",
+
+    description:
+      "Developed an Expense Tracker using HTML, CSS, JavaScript, Tailwind CSS, Node.js, Express, MySQL, Razorpay, JWT, and bcrypt, enabling users to manage their expenses with premium features",
+
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      { name: "Nodejs", color: "blue-text-gradient" },
+      { name: "Mysql", color: "blue-text-gradient" },
+      { name: "razorpay", color: "blue-text-gradient" },
+    ],
+    image: expense_tra,
+    source_code_link: "https://github.com/Vikas22263/expense-tracker.git",
+  },
+  {
+    name: "Ecom",
+
+    description:
+      "Developed a E-commerce using React,Ant Design-Toastify Tailwind CSS, Node.js, Express, MongoDb, Razorpay, JWT, and bcrypt, enabling users to manage their expenses with premium features",
+
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      { name: "Nodejs", color: "blue-text-gradient" },
+      { name: "Mysql", color: "blue-text-gradient" },
+      { name: "razorpay", color: "blue-text-gradient" },
+    ],
+    image: ecom,
+    source_code_link: "https://github.com/Vikas22263/natuatuta",
   },
 ];
 
